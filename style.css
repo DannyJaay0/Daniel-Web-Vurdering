@@ -3,7 +3,7 @@ body {
 }
 
 header {
-	background-color: grey;
+	background-color: lightblue;
 	display: flex;
 	padding: 20px;
 	justify-content: space-between;
@@ -27,8 +27,7 @@ section {
 }
 
 footer {
-	background-color: black;
-	color: white;
+	background-color: lightblue;
 	padding: 15px;
 	display: flex;
 	justify-content: space-between;
