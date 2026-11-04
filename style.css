@@ -1,34 +1,34 @@
 body {
-	margin: 0;
+	margin: 0; /* Dette gjør at all unødvendig mellomrom blir fjernet på hele siden, siden dette er body */
 }
 
 header {
-	background-color: lightblue;
-	display: flex;
-	padding: 20px;
-	justify-content: space-between;
+	background-color: lightblue; /* Dette endrer fargen til footer, til lightblue, endrer bare bakgrunnsfargen ikke selve teksten */
+	display: flex; /* Dette gjør at ting, som fks tekst i denne, blir lagt ved siden av hverandre istedet for å bli lagt nedover som standard. Da flexser siden når den har ulike størrelser også */
+	padding: 20px; /* Dette gjør jeg så teksten får litt mellomrom til alt annet, det blir litt mere plass, og dette gjøres på alle sider. den legger til 20px med background til header delen */
+	justify-content: space-between; /* Dette gjør at "content" får like mye mellomrom mellom seg i midten, i denne gjør det at teksten er på hver sin side */ 
 }
 
 main {
-	display: flex;
+	display: flex; /* Dette gjør at ting, som fks tekst i denne, blir lagt ved siden av hverandre istedet for å bli lagt nedover som standard. Da flexser siden når den har ulike størrelser også */
 	justify-content: center;
-	gap: 20px;
-	padding: 20px;
+	gap: 20px; /* Dette bruker jeg for at boksene har 20px mellomrom med hverandre */
+	padding: 20px; /* Putter 20px med mellomrom fra alle kanter for boksene, altså hele main.  */
 
 }
 
 section {
-	background-color: grey;
-	padding: 50px;
-	flex: 1;
-	text-align: center;
-	min-height: 70vh;
-	border-radius: 5px;
+	background-color: grey; /* Gjør at boksene blir grå  */
+	padding: 50px; /* putter 50px med mellomrom rundt selve teksten, slik at teksten har mye mere rundt seg. på alle sider. */
+	flex: 1; /* Dette gjør at alle boksene får samme bredde */
+	text-align: center; /* Dette gjør at teksten i section havener i midten av selve boksen inni section */
+	min-height: 70vh; /* Gjør at boksene har minimums høyde på 70% av brukeren sin skjerm */
+	border-radius: 5px; /* Dette gjør at selve boksene i flexbox sine kanter, som var bare kanter, blir avrundet med 5px, slik at det blir litt mere "sirkel" dette kan se bedre ut på en side */
 }
 
 footer {
-	background-color: lightblue;
-	padding: 15px;
-	display: flex;
-	justify-content: space-between;
+	background-color: lightblue; /* Dette endrer fargen til footer, til lightblue, endrer bare bakgrunnsfargen ikke selve teksten */
+	padding: 15px; /* Dette gjør at selve bakgrunnen får mellomrom til alt annet, med 15px, dette gjør at det ser finere ut også. Dette blir lagt til på alle sier */
+	display: flex; /* Dette gjør at ting, som fks tekst i denne, blir lagt ved siden av hverandre istedet for å bli lagt nedover som standard. Da flexser siden når den har ulike størrelser også */
+	justify-content: space-between; /* Dette gjør at det er mellomrom mellom de ulike "content" dette gjør at de får like stort mellomrom i mellom seg */
 }
