@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+	font-size: 20px;
+}
+
+header {
+	background-color: grey;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	margin: 20px;
+}
+
+section {
+	background-color: black;
+	color: white;
+	padding: 20px;
+	flex: 1;
+	height: 75vh;
+}
+
+footer {
+	background-color: grey;
+	height: 10vh;
+	text-align: center;
+	padding: 22px;
+}
