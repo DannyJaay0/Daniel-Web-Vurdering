@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html lang="no">
+<html lang="no"> <!-- Vise at nettsiden er på norsk-->
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Daniel-Web-Vurdering</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Daniel-Web-Vurdering</title> <!-- Tittel for prosjektet  -->
+	<link rel="stylesheet" type="text/css" href="style.css"> <!-- linker til css -->
 </head>
 <body>
 
 <header>
-	<div id="Pantografen">Pantografen</div>
-	<div id="dato">Dato</div>
+	<div id="Pantografen">Pantografen</div> <!-- Dette er skrevet i header og lagt til som id pantografen for å legge til egen font på den-->
+	<div id="dato">Dato</div> <!-- Dette gjør at jeg kan endre dette til dagens dato senere -->
 </header>
 
-<main>
+<main> <!-- Jeg valgte å bruke main istede for div så jeg kan snakke rett til den uten å bruke class eller div, fin måte å gjøre det på-->
 	<section>I dag på menyen er det Kjøttboller, brun saus og potet! til bare 75kr!</section>
-	<section id="hilsen">hilsen</section>
+	<section id="hilsen">hilsen</section> <!-- id slik at jeg kan refere til den i JS så jeg kan legge til en egen hilsen for de ulike tidene på døgnet  -->
 	<section>Vi er åpen fra 11 til 13 i hverdager. Og er stengt i helgene</section>
 </main>
 
@@ -24,6 +24,6 @@
 	<div>Håper det smaker!</div>
 </footer>
 
-<script src="script.js" defer></script>
+<script src="script.js" defer></script> <!-- dette kobler til script.js og defer gjør at hele siden laster inn før javascript lastes inn så det ikke kommer feil meldinger eller bøgger. -->
 </body>
 </html>

@@ -17,6 +17,10 @@ main {
 
 }
 
+#Pantografen {
+	font-family: verdana; /* endrer font på bare pantografen i header */
+}
+
 section {
 	background-color: grey; /* Gjør at boksene blir grå  */
 	padding: 50px; /* putter 50px med mellomrom rundt selve teksten, slik at teksten har mye mere rundt seg. på alle sider. */
